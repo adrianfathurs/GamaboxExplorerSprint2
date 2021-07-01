@@ -51,11 +51,3 @@ if you run local, you have to set app/config/app.php :
     'asset_url' => env('ASSET_URL', null),
 
 ```
-
-if you run in server, you have to set app/config/app.php :
-```
- 'url' => env('APP_URL', 'https://energy.widyaanalytic.com'),
-
-    'asset_url' => env('ASSET_URL', 'https://energy.widyaanalytic.com'),
-
-```
