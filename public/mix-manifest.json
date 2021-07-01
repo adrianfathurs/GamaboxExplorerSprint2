@@ -1,0 +1,13 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/main.css": "/css/main.css",
+    "/js/chunks/vendors~canvg.js": "/js/chunks/vendors~canvg.js",
+    "/js/chunks/vendors~pdfmake.js": "/js/chunks/vendors~pdfmake.js",
+    "/js/chunks/vendors~xlsx.js": "/js/chunks/vendors~xlsx.js",
+    "/js/chunks/xlsx.js": "/js/chunks/xlsx.js",
+    "/css/vuesax.css": "/css/vuesax.css",
+    "/css/iconfont.css": "/css/iconfont.css",
+    "/css/material-icons/material-icons.css": "/css/material-icons/material-icons.css",
+    "/css/prism-tomorrow.css": "/css/prism-tomorrow.css"
+}

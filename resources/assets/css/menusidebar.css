@@ -1,0 +1,138 @@
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+/* -------------------------------- */
+
+.opacityIcon{
+    font-size: 3em;
+    color: #4ca2ff;
+}
+.sidebar {
+    height: 72vh;
+    min-height: 510px;
+    background-color: white;
+}
+.v-sidebar-menu {
+    position: inherit;
+    height: -webkit-fill-available;
+    border-radius: 10px;
+    background-color:rgb(0 123 255 / 70%);;
+    width: -webkit-fill-available;
+    max-width: -webkit-fill-available !important;
+}
+
+[dir] .v-sidebar-menu .vsm--link_level-1 .vsm--icon {
+    background-color:transparent;
+}
+
+[dir] .v-sidebar-menu.vsm_expanded .vsm--item_open .vsm--link_level-1 .vsm--icon {
+    background-color:transparent;
+}
+
+[dir] .v-sidebar-menu.vsm_expanded .vsm--item_open .vsm--link_level-1 {
+    background-color: #4286f5;
+}
+
+[dir] .v-sidebar-menu .vsm--link_level-2 {
+    font-size: 13px !important;
+}
+
+[dir=ltr] .v-sidebar-menu .vsm--item {
+    padding: 0px !important;
+}
+
+.vsm--link_level-2 {
+    font-size: 13px !important;
+}
+
+[dir] .v-sidebar-menu .vsm--dropdown .vsm--list {
+    background-color: #4286f5;
+    padding-left: 30px;
+}
+
+[dir] .v-sidebar-menu .vsm--link {
+    font-size: 15px;
+}
+
+.vs-button {
+    border-radius: 10px;    
+}
+.v-sidebar-menu .vsm--item {
+    padding-left: 15px;
+}
+.header-container {
+    margin: 0px!important;
+    border-radius: 5px;
+    /* padding: 0px !important; */
+}
+.container-data {
+    height: 43vh;
+    min-height: 250px!important;
+    overflow: auto;
+}
+[dir] .border-light {
+    border-color: #d9d9d9 !important;
+}
+.button-addon1 {
+  font-size: 12px !important;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(255, 111, 0);
+  border: solid 2px rgb(255, 111, 0);
+  font-weight: bold;
+}
+.button-search {
+  font-size: 12px !important;
+  text-align: center;
+  cursor: pointer;
+}
+.button-Asearch {
+  font-size: 10px !important;
+  text-align: center;
+  cursor: pointer;
+}
+.button-upload {
+  font-size: 12px !important;
+  text-align: center;
+  cursor: pointer;
+}
+.button1-download {
+  border-radius: 10px; 
+  background-color: rgb(255, 111, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: white; 
+  font-weight: bold;
+  border: solid 2px  rgb(255, 111, 0);
+  padding: 6px 16px;
+}
+
+.button1-download:hover {
+  background-color: rgb(255, 111, 0);
+  color: white;
+}
